@@ -10,3 +10,11 @@ Upon completion of each objective, the player will recieve a certain amount of p
 The challenge of the game will come from randomised events that will affect gameplay, such as putting out the fire you just lit etc, along with a timer for certain objectives .
 
 The background for the game will just consist of some basic colours and shapes, as I feel like this isnt too key to the gameplay.
+
+
+### Core Mechanics
+
+_Flame Sensor_ The flame sensor will be used to determine how far the fire is from the current object, which in turn will define its position on the screen. The closer the flame is to the object, the faster the object will ignite.
+
+_Lighting things on Fire_
+Each object will have a randomised resistance to 
