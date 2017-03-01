@@ -27,6 +27,10 @@ public class ComboLock : MonoBehaviour {
 	public int Key2;
 	public int Key3;
 
+	public bool Unlock1;
+	public bool Unlock2;
+	public bool Unlock3;
+
 	public int AmountOfLocks = 0;
 
 	public bool[] LockArray;
@@ -44,18 +48,19 @@ public class ComboLock : MonoBehaviour {
 		LockArray [5] = Lock6;
 		LockArray [6] = Lock7;
 		LockArray [7] = Lock8;
+		if (AmountOfLocks < 3) {
+			for (int i = 0; i < 8; i++) {
 
-		for (int i = 0; i < 8; i++) {
+				int RandomNumber = Random.Range (0, 100);
+				if (RandomNumber < 50) {
+					LockArray [i] = true;
+					Debug.Log (LockArray [i] + "" + i);
+					AmountOfLocks++;
+				} else {
+					Debug.Log (LockArray [i] + "" + i);
+				}
 
-			int RandomNumber = Random.Range (0, 100);
-			if (RandomNumber < 50) {
-				LockArray [i] = true;
-				Debug.Log (LockArray [i] + "" + i);
-				AmountOfLocks++;
-			} else {
-				Debug.Log (LockArray [i] + "" + i);
 			}
-
 		}
 
 		KeyArray = new int[3];
@@ -75,95 +80,141 @@ public class ComboLock : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 		if (Input.GetKeyDown (KeyCode.Y)) {
 			if (LockArray [0] == true) {
-				Debug.Log ("Lock 1 Active");
+
 				if (Key1 == 0 || Key2 == 0 || Key3 == 0) {
-					Debug.Log ("Key 1 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
+				} else {
+
 				}
-			} else {
-				Debug.Log ("Lock 1 InActive");
 			}
 		}
 
 		if (Input.GetKeyDown (KeyCode.U)) {
 			if (LockArray [1] == true) {
-				Debug.Log ("Lock 2 Active");
+
 				if (Key1 == 1 || Key2 == 1 || Key3 == 1) {
-					Debug.Log ("Key 2 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 2 InActive");
-			}
+			}	
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.I)) {
 			if (LockArray [2] == true) {
-				Debug.Log ("Lock 3 Active");
 				if (Key1 == 2 || Key2 == 2 || Key3 == 2) {
-					Debug.Log ("Key 3 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 3 InActive");
 			}
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.O)) {
 			if (LockArray [3] == true) {
-				Debug.Log ("Lock 4 Active");
 				if (Key1 == 3 || Key2 == 3 || Key3 == 3) {
-					Debug.Log ("Key 4 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 4 InActive");
+
 			}
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.H)) {
 			if (LockArray [4] == true) {
-				Debug.Log ("Lock 5 Active");
+
 				if (Key1 == 4 || Key2 == 4 || Key3 == 4) {
-					Debug.Log ("Key 5 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 5 InActive");
 			}
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.J)) {
 			if (LockArray [5] == true) {
-				Debug.Log ("Lock 6 Active");
+
 				if (Key1 == 5 || Key2 == 5 || Key3 == 5) {
-					Debug.Log ("Key 6 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 6 InActive");
 			}
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.K)) {
 			if (LockArray [6] == true) {
-				Debug.Log ("Lock 7 Active");
+
 				if (Key1 == 6 || Key2 == 6 || Key3 == 6) {
-					Debug.Log ("Key 7 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 7 InActive");
 			}
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.L)) {
 			if (LockArray [7] == true) {
-				Debug.Log ("Lock 8 Active");
+
 				if (Key1 == 7 || Key2 == 7 || Key3 == 7) {
-					Debug.Log ("Key 8 Active");
+					if (Unlock1 == false && Unlock2 == false && Unlock3 == false) {
+						Unlock1 = true;
+					} else if (Unlock1 == true && Unlock2 == false && Unlock3 == false) {
+						Unlock2 = true;
+					} else if (Unlock1 == true && Unlock2 == true && Unlock3 == false) {
+						Unlock3 = true;
+					}
 				}
 			} else {
-				Debug.Log ("Lock 8 InActive");
 			}
 		}
-
 	}
 }
