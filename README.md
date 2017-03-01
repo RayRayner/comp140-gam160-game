@@ -13,3 +13,8 @@ The main menu will be controlled by the switches, with icons corresponding to th
 Switches:
 
 The switches will be a main feature of all the minigames shipped with the product, as they will be required to use for actions in the games instead of being able to use the mouse and keyboard or controller. 
+
+## Controller
+
+The controller I shall be making and using for my project will effectively be a plain board with 8 independent flip switches (either on or off) along with a red light and a green light above each switch. The LED's will be used to visually show if the switch is the correct switch unlocking part of the lock for one of the games, or in the case of the space idea, it will be to show if its active or not. 
+
