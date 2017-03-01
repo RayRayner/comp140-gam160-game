@@ -18,3 +18,4 @@ The switches will be a main feature of all the minigames shipped with the produc
 
 The controller I shall be making and using for my project will effectively be a plain board with 8 independent flip switches (either on or off) along with a red light and a green light above each switch. The LED's will be used to visually show if the switch is the correct switch unlocking part of the lock for one of the games, or in the case of the space idea, it will be to show if its active or not. 
 
+The controller will take similarities from cockpits used in Helicopters and Aeroplanes. 
