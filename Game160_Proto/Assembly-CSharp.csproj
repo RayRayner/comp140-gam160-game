@@ -45,7 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ComboLock.cs" />
+     <Compile Include="Assets\Scripts\ComboLock\ComboLock.cs" />
+     <Compile Include="Assets\Scripts\ComboLock\LockActive.cs" />
+     <Compile Include="Assets\Scripts\MenuButtons.cs" />
+     <Compile Include="Assets\Scripts\ReturnToMenu.cs" />
+     <Compile Include="Assets\Scripts\SpaceShip\Controlling.cs" />
+     <Compile Include="Assets\Scripts\SpaceShip\Doors.cs" />
+     <Compile Include="Assets\Scripts\SpaceShip\Oxygen.cs" />
+     <Compile Include="Assets\Scripts\SpaceShip\Resource.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
