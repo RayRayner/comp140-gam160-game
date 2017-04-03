@@ -1,4 +1,3 @@
-<<<<<<< .mine
 ﻿using UnityEngine;
 using System.Collections;
 
@@ -27,20 +26,3 @@ public class Resource : MonoBehaviour {
 		}
 	}
 }
-||||||| .r0
-=======
-﻿using UnityEngine;
-using System.Collections;
-
-public class Resource : MonoBehaviour {
-
-	public bool DoorOpen = false;
-
-	void OnTriggerEnter (Collider other) {
-
-		if (DoorOpen == true) {
-			Destroy (gameObject);
-		}
-	}
-}
->>>>>>> .r17
