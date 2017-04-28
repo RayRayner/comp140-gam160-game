@@ -1,0 +1,80 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1958 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\Unity Projects\Game160_Proto\Builds\Final_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.808454 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1cec -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.789461 ms
+False0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+True1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+False2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+True3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+False4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+False5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+True6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.210927 ms (FindLiveObjects: 0.022900 ms CreateObjectMapping: 0.009943 ms MarkObjects: 0.169947 ms  DeleteObjects: 0.006930 ms)
+
+Key has been found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Key has been found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Key has been found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.347126 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.240155 ms (FindLiveObjects: 0.012052 ms CreateObjectMapping: 0.007231 ms MarkObjects: 0.150662 ms  DeleteObjects: 0.069003 ms)
+
